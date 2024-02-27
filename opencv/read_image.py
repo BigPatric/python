@@ -13,7 +13,7 @@ img = cv2.resize(image,(0,0),fx = 2.0,fy =2.0)#devided by 2;
 
 # 顯示圖像l
 cv2.imshow('img',img)
-cv2.waitKey(0)
+cv2.waitKey(2000)
 cv2.destroyAllWindows()
 
 # 检查是否成功讀取圖像
